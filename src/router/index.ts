@@ -1,12 +1,17 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import Home from '../views/Home.vue'
-
+import HomeCompositionApi from '../views/HomeCompositionApi.vue'
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'Home',
     component: Home
   },
+   {
+    path: '/home-composition',
+    name: 'HomeCompositionApi',
+    component: HomeCompositionApi
+  }, 
   {
     path: '/about',
     name: 'About',
